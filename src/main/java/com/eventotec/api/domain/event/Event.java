@@ -9,8 +9,8 @@ import lombok.Setter;
 import java.util.Date;
 import java.util.UUID;
 
-@Entity()
 @Table(name = "event")
+@Entity()
 @Getter
 @Setter
 @AllArgsConstructor
